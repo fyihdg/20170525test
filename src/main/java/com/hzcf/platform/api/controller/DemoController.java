@@ -36,6 +36,8 @@ public class DemoController {
 		return data;
 	}
 
-
+		 public String add(){
+			 return "";
+		 }
 
 }
