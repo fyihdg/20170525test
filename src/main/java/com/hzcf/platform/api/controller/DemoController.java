@@ -32,7 +32,7 @@ public class DemoController {
 		Map<String,String> data = new HashMap<String,String>();
 		System.out.println("请求DemoController");
 		String str = demoService.get();
-		data.put("success",str);
+		data.put("success",str);////测试
 		return data;
 	}
 
